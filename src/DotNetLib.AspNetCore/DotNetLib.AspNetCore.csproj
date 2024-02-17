@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <!--<FrameworkReference Include="Microsoft.AspNetCore.App" />-->
+	  <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="8.0.0" />
+	  <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetLib.NetCore\DotNetLib.NetCore.csproj" />
+    <ProjectReference Include="..\DotNetLib.Serilog\DotNetLib.Serilog.csproj" />
+  </ItemGroup>
+
+</Project>
