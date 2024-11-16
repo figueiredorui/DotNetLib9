@@ -1,2 +1,2 @@
-# DotNetLib8
-.NET 8 extensions and helpers
+# DotNetLib9
+.NET 9 extensions and helpers
